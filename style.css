@@ -9,11 +9,27 @@
 /*---------------------------------------------------
 1: Variables & Common styling
 ---------------------------------------------------*/
+body {
+    background-image: linear-gradient(#FEB4A9, #F7A29B, #F79D94, #F58D80, #EB847D);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: #FEFEFE;
+    letter-spacing: 0.1rem;
+    font-family: Arial;
+}
+
 /*Variables*/
 :root {
-    --color-dark: #333;
-    --color-light: #FEFEFE;
-    --color-accent: #f90;
+    --color-knap: #FEFEFE;
+    --color-input: #FEFEFE;
+    --color-tekst: #76606F;
+    --color-baggrund-title: #F2968F;
+    --color-header-nav: rgba(106, 89, 107, 0.76);
+    --color-menu: linear-gradient(#6A596B, #352D36);
+    --color-menu-accent: #3F3140;
+
 }
 
 /*Common styling classes*/
@@ -149,6 +165,4 @@ td {
 5: Page specific styles
 ---------------------------------------------------*/
 /*Login page*/
-.loginpage {
-    background-color: aqua;
-}
+.loginpage {}
