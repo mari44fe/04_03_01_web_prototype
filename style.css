@@ -9,9 +9,15 @@
 /*---------------------------------------------------
 1: Variables & Common styling
 ---------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: linear-gradient(#FEB4A9, #F7A29B, #F79D94, #F58D80, #EB847D);
     background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
 }
 
 h1 {
@@ -20,15 +26,21 @@ h1 {
     font-family: Arial;
 }
 
+p {
+    font-family: Arial;
+    color: var(--color-tekst);
+}
+
 /*Variables*/
 :root {
     --color-knap: #FEFEFE;
     --color-input: #FEFEFE;
-    --color-tekst: #76606F;
+    --color-tekst: #3F3140;
     --color-baggrund-title: #F2968F;
     --color-header-nav: rgba(106, 89, 107, 0.76);
     --color-menu: linear-gradient(#6A596B, #352D36);
     --color-menu-accent: #3F3140;
+    font-family: Arial;
 
 }
 
@@ -40,7 +52,7 @@ h1 {
 /*---------------------------------------------------
 2: Layout / Grid
 ---------------------------------------------------*/
-/*Grid container*/
+/* Grid container
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -55,13 +67,13 @@ h1 {
     justify-items: left;
 }
 
-/*Grid column items*/
+Grid column items
 .frontervskeatitle {
     grid-column-start: 2;
     grid-column-end: 6;
 }
 
-/*loginpage*/
+loginpage
 .loginform {
     grid-row-start: 2;
     grid-column-start: 2;
@@ -80,7 +92,7 @@ h1 {
     grid-column-end: 6;
 }
 
-/*loginpage grid*/
+loginpage grid
 .formgroup {
     display: grid;
     grid-template-columns: 1fr 260px;
@@ -100,17 +112,17 @@ h1 {
     margin-bottom: 1.5em;
 }
 
-/*afleveringer page*/
+afleveringer page
 .afleveringer {
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: end;
 }
 
-/*---------------------------------------------------
+---------------------------------------------------
 3: Form styling
----------------------------------------------------*/
-/*Inputs*/
+---------------------------------------------------
+Inputs
 
 label,
 input[type=text],
@@ -144,9 +156,9 @@ input[type=submit]:hover {
     background-color: #f90;
 }
 
-/*---------------------------------------------------
+---------------------------------------------------
 4: Table styles
----------------------------------------------------*/
+---------------------------------------------------
 table {
     table-layout: fixed;
     width: 100%;
@@ -160,9 +172,160 @@ th {
 td {
     border: 1px dashed var(--color-accent);
 }
-
+ */
 /*---------------------------------------------------
 5: Page specific styles
 ---------------------------------------------------*/
+/*CHAT SIDE , MARIA*/
+
+
+#chat_afsender {
+    position: relative;
+    display: flex;
+    padding-top: 0.5rem;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+
+}
+
+#header_chat {
+    flex-wrap: nowrap;
+}
+
+
+#chat_afsender img {
+    width: 3rem;
+    margin-left: 10rem;
+    padding-top: 0.5rem;
+}
+
+#header_chat p {
+    font-size: 1.5rem;
+    margin: auto 0;
+    padding-top: 0.5rem;
+    padding-left: 6.5rem;
+}
+
+.besked1 {
+    display: flex;
+
+}
+
+#tekstboxikon1 p {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-knap);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin-left: 0.2rem;
+    font-weight: bold;
+
+}
+
+#tekstbox1 p {
+    font-size: 1rem;
+    background-color: white;
+    padding: 1.2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.3rem;
+    border-radius: 0.7rem;
+
+}
+
+.besked2 {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#tekstboxikon2 p {
+    background-color: #69596A;
+    color: white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin-right: 0.2rem;
+    font-weight: bold;
+
+}
+
+#tekstbox2 p {
+    font-size: 1rem;
+    background-color: #69596A;
+    color: white;
+    padding: 1rem;
+    margin-left: 3.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.7rem;
+
+}
+
+.besked3 {
+    display: flex;
+
+}
+
+#tekstboxikon3 p {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color-knap);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin-left: 0.2rem;
+    font-weight: bold;
+
+}
+
+#tekstbox3 p {
+    font-size: 1rem;
+    background-color: white;
+    padding: 1rem;
+    padding-right: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 0.7rem;
+    margin-right: 0.3rem;
+
+}
+
+#ny_besked {
+    height: 11rem;
+}
+
+#skriv_her {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+
+}
+
+#skriv_her img {
+    width: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.3rem;
+}
+
+
+#skriv_her input[type=text] {
+    padding: 1rem;
+    outline: -webkit-focus-ring-color auto 0;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
+    border: 1px solid #69596A;
+}
+
+
+
+*/
+
 /*Login page*/
 .loginpage {}
