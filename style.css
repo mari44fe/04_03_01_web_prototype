@@ -574,7 +574,7 @@ Afleveringer
 /* Style the accordion panel. Note: hidden by default */
 .panel0 {
 	padding: 0 18px;
-	background-color: #EB847D;
+	background-color: rgba(255, 254, 254, 0.43);
 	display: none;
 	overflow: hidden;
 }
