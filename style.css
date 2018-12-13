@@ -330,6 +330,7 @@ td {
 /*Login page*/
 .loginpage {}
 
+<<<<<<< HEAD
 
 /*---------------------------------------------------
 Materialer (Sofia)
@@ -531,3 +532,66 @@ li {
 }
 
 /*----------------------------------------------------------------------------------*/
+=======
+/*---------------------------------------------------
+Afleveringer
+---------------------------------------------------*/
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 0 1 0 0;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 2px;
+    ;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: #FEFEFE;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #EB847D;
+    display: none;
+    overflow: hidden;
+}
+
+button img {
+    width: 4%;
+    float: right;
+}
+
+.panel img {
+    width: 4%;
+    margin-right: 30px;
+}
+
+/*---------------------------------------------------
+Feedback
+---------------------------------------------------*/
+
+.section {
+    background-color: #FEFEFE;
+    text-align: center;
+    color: black;
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 2px;
+    margin-left: none;
+}
+
+.section img {
+    width: 3%;
+    margin-right: 2px;
+}
+>>>>>>> origin/master
