@@ -635,6 +635,10 @@ button img {
 	/* Unicode character for "minus" sign (-) */
 }
 
+a:link {
+	text-decoration: none;
+}
+
 /*---------------------------------------------------
 Feedback
 ---------------------------------------------------*/
