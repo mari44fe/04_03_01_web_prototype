@@ -331,7 +331,10 @@ td {
 .loginpage {}
 
 
----------------------------------- Materialer (Sofia) ---------------------------------------------------*/ #section_materialer h1 {
+/*---------------------------------- Materialer (Sofia) ---------------------------------------------------*/
+
+
+h1 {
 	color: #FEFEFE;
 	letter-spacing: 0.1rem;
 	font-family: Arial;
@@ -464,7 +467,7 @@ li {
 }
 
 .accordion3 img {
-	width: 20px;
+	width: 25px;
 	position: relative;
 	top: 4px;
 	padding-right: 0.5em;
@@ -472,7 +475,6 @@ li {
 
 .accordion2 img {
 	width: 25px;
-	;
 	position: relative;
 	top: 1px;
 	padding-right: 0.5em;
@@ -547,6 +549,22 @@ Afleveringer
 	;
 }
 
+.accordion0 {
+	background-color: #ffffff;
+	color: var(--color-tekst);
+	font-family: arial;
+	font-weight: bold;
+	letter-spacing: 1px;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	margin-bottom: 1px;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active,
 .accordion0:hover {
@@ -561,14 +579,60 @@ Afleveringer
 	overflow: hidden;
 }
 
+.panel0 p {
+	color: var(--color-tekst);
+	font-family: arial;
+	cursor: pointer;
+	padding: 9px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	font-size: 12px;
+}
+
 button img {
 	width: 4%;
 	float: right;
 }
 
 .panel0 img {
+	width: 6%;
+	margin-right: 15px;
+}
+
+.lock_ikon {
 	width: 4%;
-	margin-right: 30px;
+	margin-left: 55px;
+}
+
+.lock_ikon3 {
+	width: 4%;
+	margin-left: 13px;
+}
+
+.cross_ikon {
+	width: 4%;
+	margin-left: 6px;
+}
+
+.comment.ikon {
+	width: 4%;
+	margin-left: 50px;
+}
+
+.accordion0:after {
+	content: '\02795';
+	/* Unicode character for "plus" sign (+) */
+	font-size: 5px;
+	float: right;
+	margin-left: 5px;
+}
+
+.accordion0.active:after {
+	content: "\2796";
+	/* Unicode character for "minus" sign (-) */
 }
 
 /*---------------------------------------------------
